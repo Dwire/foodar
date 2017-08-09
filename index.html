@@ -1,0 +1,147 @@
+<!-- An input should be available to obtain a zip-code
+max-length should be 5 characters -->
+<!-- Now that you know more CSS, use it to style your Home page. 
+
+You should display link text a different color when the user mouses over the text. 
+Also, remove the bullets from navigational link lists in the footer.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Foodar Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- /////////////////////////////////TOP BAR////////////////////////////////////////////  -->
+
+  <header class="logo">
+    <a href="index.html"><img src="images/foodar.png" alt="logo"></a>
+    
+    <div id="ad-space">
+      <p>this is a test</p>
+    </div>
+
+    <nav>
+      <h3><a href="register.html">SIGN-IN /</a></h3>
+      <h3><a href="register.html">REGISTER /</a></h3>
+      <h3><a href="about.html">REQUEST</a></h3>
+    </nav>
+  </header>
+
+  <!--/////////////////////////////////////MAIN IMAGE////////////////////////////////////////////////  -->
+  <div id="home-page-img">
+    <h1>try a new meal today</h1>
+  </div>
+  <!--///////////////////////////////////////HOW IT WORKS SECTION//////////////////////////////////////-->
+
+  <div class="heading-text">
+    <h1>how it works</h1>
+  </div>
+
+  <div id="order" class="container">
+    <img src="images/menu.jpg" alt="menu image" id="fork-menu-img">
+
+    <div class="wrapper">
+      <p>
+          The process is simple. We deliver whatever food you order from our partner restaurants. 
+          We provide an experience to our patrons with utmost courtesy and hospitality. Try out Foodar today!
+        </p>
+
+      <ol>
+        <li>Oder your food</li>
+        <li>Find a driver</li>
+        <li>Place pickup request</li>
+      </ol>
+
+      <button class="read-more-btn">Read More</button>
+    </div>
+  </div>
+  <!--///////////////////////////////////////FEATURED RESTAURANTS/////////////////////////////////////-->
+
+  <div class="heading-text">
+    <h1>feature restaurants</h1>
+  </div>
+
+  <div id="cards" class="container">
+
+    <div class="restaurant">
+      <img src="images/fish.jpg" alt="fish N chips image">
+
+      <div class="restaurant-text">
+        <h3>FISH & CHIPS GALLORE!</h3>
+        <p>Since 1968, Fish & Chips Gallore! has served the bay area with its palatable array of fried fish and sailor's choice
+          dessert.
+        </p>
+        <p>Order today and recieve 15% your total meal and we'll throw in our famous hush puppies as a thank you.</p>
+      </div>
+
+    </div>
+
+    <div class="restaurant">
+      <img src="images/burger.jpg" alt="burger image">
+
+      <div class="restaurant-text">
+        <h3>BUBBA JOE'S!</h3>
+        <p>When you actually, really desire a burger, you order from Bubba Joe's. Unlike the fast food business, we eat our
+          own food and love it.</p>
+        <p>Order 2 burgers and get a small fry on us today.</p>
+      </div>
+    </div>
+
+    <div class="restaurant">
+      <img src="images/dessert.jpg" alt="dessert image">
+
+      <div class="restaurant-text">
+        <h3>AWWW YEAH DESSERTS!</h3>
+        <p>Welcome to your favorite part of dinner, lunch, breakfast, brunch, any meal. We know you don't need encouragement
+          from us to eat our desserts. Look at the picture. You know you want it.</p>
+        <p>Just for you, we'll knock off 10% to make your wallet feel good too.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!--///////////////////////////////////////ZIP FINDER//////////////////////////////////////-->
+
+  <div class="zip">
+    <h3>FIND THE NEAREST CITY</h3>
+    <p>Fill out the form below with your zip code of where you live.</p>
+    <div class="zip-submit">
+    <input type="text" maxlength="5" placeholder="Zip Code" id="zip-input">
+    <button id="zip-btn"> GO </button>
+    </div>
+  </div>
+
+  <!--///////////////////////////////////////FOOTER//////////////////////////////////////-->
+  <footer>
+
+    <div class="site-map">
+      <h3>SITE MAP:</h3>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="register.html">Register</a></p>
+      <p><a href="about.html">How it All Works</a></p>
+    </div>
+
+    <div class="legal">
+      <h3>Legal:</h3>
+      <p><a href="#">Privacy Policy</a></p>
+      <p><a href="#">Terms & Conditions</a></p>
+      </br>
+      <p id="copy">© 2015. All rights reserved.</p>
+    </div>
+
+    <div class="contact">
+      <h3>Food is Good</h3>
+    </div>
+
+  </footer>
+
+  <script src="../index.js"></script>
+</body>
+
+</html>

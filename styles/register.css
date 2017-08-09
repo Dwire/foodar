@@ -1,0 +1,73 @@
+
+h1 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 50px;
+     text-align: center;
+    color: #ccad52;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 15px;
+}
+
+form {
+    margin: 50px auto 50px;
+    width: 50%;
+}
+
+form > p {
+    margin-bottom: 40px;
+}
+
+button.register-btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15%;
+    font-size: 1em;
+    margin-left: 100px;
+}
+
+
+input {
+    border: none;
+    font-size: 1em;
+    background-color: #E2E7EB;
+    border-radius: 5%;
+    padding: 20px;
+    min-width: 170px;
+    margin: 5px;
+}
+
+
+
+.login {
+    margin: 30px;
+    text-align: center;
+}
+
+
+footer { 
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rgb(15.9%, 15.2%, 15.2%);
+    height: 300px;
+    padding: 10px 45px;
+  }
+
+  #copy {
+      padding-top: 85px;
+  }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #ccad52;
+}
+
+footer a:active {
+    font-size: 25px;
+}
